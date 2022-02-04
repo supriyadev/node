@@ -25,6 +25,11 @@ const fileSchema = new mongoose.Schema({
     maxlength: 255,
     minlength: 5,
   },
+  filename:{
+    type: String,
+    required: true,
+
+  }
 
 });
 
